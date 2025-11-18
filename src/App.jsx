@@ -2,7 +2,7 @@ import Header from "./components/Header/Header";
 
 import Banner from "./components/Banner/Banner";
 
-import Lancamentos from "./components/Lancamentos/lancamentos";
+import Lancamentos from "./components/Lancamentos/Lancamentos";
 
 import Looks from "./components/Looks/Looks";
 
