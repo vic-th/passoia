@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import './lancamentos.scss';
+
 
 
 import azul from "../../assets/azul.png";
