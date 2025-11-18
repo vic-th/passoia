@@ -1,4 +1,8 @@
 import { useState } from "react";
+
+import './lancamentos.scss';
+
+
 import azul from "../../assets/azul.png";
 import vermelho from "../../assets/vermelho.png";
 import marrom from "../../assets/marrom.png"
