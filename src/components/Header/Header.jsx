@@ -1,7 +1,11 @@
+import "./header.scss";
+
+import logo from "../../assets/passoia.logo.png"
+
 function Header() {
 return(
     <header>
-<img src="" alt="" />
+<img src={logo} alt="" />
 
 <ul>
     <li>LOOKS</li>
