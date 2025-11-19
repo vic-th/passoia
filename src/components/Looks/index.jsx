@@ -2,10 +2,10 @@
 
 import "./Looks.scss"
 
-import labios from "../../assets/CardLabios.png"
-import olhos from "../../assets/CardOlhos.png"          
-import rosto from "../../assets/cardRosto.png"
-import tendencias from "../../assets/CardTendencias.png"
+import labios from "../../assets/labios.png"
+import olhos from "../../assets/olhos.png"          
+import rosto from "../../assets/rosto.png"
+import tendencias from "../../assets/tendencias.png"
 
 function Looks() {
  
