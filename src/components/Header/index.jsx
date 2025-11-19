@@ -1,19 +1,17 @@
 import "./header.scss";
-
-import logo from "../../assets/passoia.logo.png"
+import logo from "../../assets/logo.png";
 
 function Header() {
-return(
+  return (
     <header>
-<img src={logo} alt="" />
+      <img src={logo} alt="logo" />
 
-<ul>
-    <li>LOOKS</li>
-    <li>LANÇAMENTOS</li>
-    <li>NOVIDADES</li>
-</ul>
+      <ul>
+        <li>LOOKS</li>
+        <li>LANÇAMENTOS</li>
+        <li>NOVIDADES</li>
+      </ul>
     </header>
-);
+  );
 }
-
 export default Header;

@@ -1,5 +1,6 @@
 
-import "./looks.scss";
+
+import "./Looks.scss"
 
 import labios from "../../assets/CardLabios.png"
 import olhos from "../../assets/CardOlhos.png"          

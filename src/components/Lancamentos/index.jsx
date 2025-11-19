@@ -1,25 +1,26 @@
 import { useState } from "react";
 
-
-
-
-import azul from "../../assets/azul.png";
+// Import das imagens
 import vermelho from "../../assets/vermelho.png";
-import marrom from "../../assets/marrom.png"
-import base from "../../assets/base.png"
+import azul from "../../assets/azul.png";
 
 function Lancamentos() {
+  // Estado que guarda a cor (imagem) atual
+  // O valor inicial é a imagem "vermelho"
   const [cor, setCor] = useState(vermelho);
+
   return (
     <>
-      <h2>Lançamentos</h2>
+      <h1>Cor Favorita</h1>
 
-      <img src={cor} alt="" />
-      <button onClick={() => setCor(vermelho)}>vermelho</button>
-      <button onClick={() => setCor(azul)}>azul</button>
-      <button onClick={() => setCor(marrom)}>marrom</button>
-       <button onClick={() => setCor(base)}>base</button>
+      {/* A imagem exibida será sempre a do estado "cor" */}
+      <img src={cor} alt="Batom" />
+
+      {/* Cada botão altera o estado "cor", trocando a imagem exibida */}
+      <button onClick={() => setCor(vermelho)}>Vermelho</button>
+      <button onClick={() => setCor(azul)}>Azul</button>
     </>
   );
 }
+
 export default Lancamentos;
