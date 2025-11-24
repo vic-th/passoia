@@ -16,6 +16,8 @@ function App() {
   <Looks />
 
   <Lancamentos />
+
+  <Novidades />
  
   </>
 )

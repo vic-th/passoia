@@ -1,0 +1,189 @@
+
+*{
+    margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+    h2{
+  
+    text-align: center;
+    margin-top: 5.394rem;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 100%;
+    color: #2D2D2D;
+  }
+
+ 
+
+.lancamentos{
+  display: flex;
+  width: 95%;
+  height: auto;
+  flex-direction: row;
+  margin-left: 5.219rem;
+  margin-right: 5.063rem;
+
+  align-items: center;
+  justify-content: center;
+  
+
+
+    .miniFiguras{
+      display: flex;
+      flex-direction: column-reverse;
+
+    width: 9%;
+    
+
+      margin-top: 5.313rem;
+    margin-bottom: 4.813rem;
+    margin-left: 4.183rem;
+
+   img{
+     width: 9.125rem;
+      height: 10.125rem;
+      
+   }
+
+ 
+
+   
+
+      
+      margin-right: 1.25rem;
+    }
+
+    .imagemPrincipal{
+      display: flex;
+      flex-direction: column;
+
+      width: 20%;
+      height: auto;
+
+      margin-left: 2.363rem;
+      margin-right: 4.713rem;
+     
+      img{
+      width: 26.184rem;
+      height: 26.184rem;
+     }
+    }
+  
+  .batom-info{
+    display: flex;
+    flex-direction: column;
+
+    width: 21%;
+    height: 45vh;
+
+     align-items: flex-start;
+
+     border: #00000029 2px solid;
+  
+   .estrelas{
+    width: 6.874rem;
+    height: 2.07rem;
+ 
+    margin-left: 1.359rem;
+   
+   }
+   
+    
+    h2{
+      text-align: start;
+
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 100%;
+      color: #2D2D2D;
+      
+      margin-top: 0.952rem;
+      margin-bottom: 0.652rem;
+      margin-left: 1.359rem;
+    }
+
+    h4{
+      text-align: start;
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: 0.625rem;
+      line-height: 100%;
+      color: #2D2D2D;
+
+      margin-top: 0.952rem;
+      margin-bottom: 0.875rem;
+      margin-left: 1.359rem;
+    }
+  }   
+
+.butons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.888rem;
+ 
+ 
+
+}
+button{
+    width: 3.81rem;
+  height: 3.81rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  
+  margin-left: 1.25rem;
+
+
+   
+}
+  #vermelho{
+    background-color: #E1342A;
+   
+ 
+   
+  }
+  #azul{
+    background-color:#B1B0D8;
+     margin-left: 1.25rem;
+   
+  }
+
+    #base{
+        background-color: #DE755E;
+       
+    }
+    #marrom{
+        background-color: #73282D;
+    }
+
+h3{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: medium;
+    font-size: 20px;
+    line-height: 100%;
+    color: #2D2D2D;
+    padding-left: 1.359rem;
+  }
+  
+
+  p{
+    width: 27.093rem;
+    height: 7.125rem;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color:#2D2D2D;
+
+
+
+    margin-top: 0.952rem;
+    margin-left: 1.359rem;
+    margin-right: 2.5rem;
+  }
+}  
